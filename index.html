@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahd's Portfolio</title>
+
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Header Design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+      <!-- Particles Container -->
+      <div id="particles-js"></div>
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Fahd Alghamdi</h1>
+        <h3>I'm <span class="multiple-text"></span></h3>
+        <p>
+          A 22-year-old Application Developer, Game Developer, and Computer
+          Science student whose curiosity about technology is limitless.
+        </p>
+      </div>
+      <div class="social-media">
+        <a href="mailto:fahd.alghamdi24@gmail.com"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+        <a href="https://github.com/Fadeyboi" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/fahd-alghamdi1/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+      <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/face.png" alt="About Me" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Computer Science Student & Application Developer</h3>
+        <p>
+          I am a passionate Computer Science student at King Abdulaziz
+          University, where I currently hold a GPA of 4.86/5. I began
+          programming early on, developing a keen interest in Game Development
+          and Application Development.
+        </p>
+        <p>
+          Throughout my studies, I’ve dedicated myself not only to learning
+          advanced concepts in software and technology but also to mentoring
+          peers along the way.
+        </p>
+        <p>
+          My goal is to continually expand my expertise and develop all kinds of
+          things that I can be proud of.
+        </p>
+        <div class="resume-btn">
+          <a href="documents/Resume.pdf" class="btn" target="_blank"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section Design -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="bx bxl-python"></i>
+          <h3>Programming Languages</h3>
+          <p>
+            Python, Java, C#, JavaScript, TypeScript, HTML/CSS, R, MATLAB, SQL
+          </p>
+        </div>
+
+        <div class="skills-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frameworks & Tools</h3>
+          <p>
+            React, Node.js, Express.js, Next.js, Tailwind CSS, Git/GitHub,
+            Postman, Unity
+          </p>
+        </div>
+
+        <div class="skills-box">
+          <i class="bx bx-brain"></i>
+          <h3>Soft Skills</h3>
+          <p>
+            Leadership, Teamwork, Problem-Solving, Mentoring, Public Speaking,
+            Adaptability
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section Design -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <!-- Project 1 -->
+      <div class="project">
+        <div class="project-content">
+          <h4>Web Crawling</h4>
+          <p>
+            Developed a distributed Java program to automatically extract URLs
+            from web pages using the Master/Slave pattern.
+          </p>
+          <p class="project-tech">Java, JavaFX, Multithreading</p>
+          <a
+            href="https://github.com/Fadeyboi/WebCrawler"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="bx bxl-github"></i> View on GitHub
+          </a>
+        </div>
+        <div class="project-img">
+          <img src="images/project1.png" alt="Web Crawling Project" />
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project reverse">
+        <div class="project-content">
+          <h4>Log Analysis</h4>
+          <p>
+            Developed a log analyzer application to consolidate and examine
+            distributed log files, enhancing security risk and threat
+            identification.
+          </p>
+          <p class="project-tech">
+            Java, JavaFX, File IO, Collections Framework
+          </p>
+          <a
+            href="https://github.com/Fadeyboi/Log_Analysis"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="bx bxl-github"></i> View on GitHub
+          </a>
+        </div>
+        <div class="project-img">
+          <img src="images/project2.png" alt="Log Analysis Project" />
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project">
+        <div class="project-content">
+          <h4>MineNBomb</h4>
+          <p>
+            A game for the 20 seconds game jam where you have to collect as much
+            money as possible in 20 seconds.
+          </p>
+          <p class="project-tech">C#, Unity, Aseprite</p>
+          <a
+            href="https://github.com/Fadeyboi/MineNBomb"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="bx bxl-github"></i> View on GitHub
+          </a>
+        </div>
+        <div class="project-img">
+          <img src="images/project3.png" alt="Web Crawling Project" />
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project reverse">
+        <div class="project-content">
+          <h4>uFace Admin Hub</h4>
+          <p>
+            Created a dashboard website for a mobile application that displays
+            all kinds of information gathered from the mobile application.
+          </p>
+          <p>Collaborated with another developer to create the website.</p>
+          <p class="project-tech">React, NodeJS, PostgresDB, TypeScript</p>
+        </div>
+        <div class="project-img">
+          <img src="images/project4.png" alt="Log Analysis Project" />
+        </div>
+      </div>
+      <div class="more-projects">
+        <a href="https://github.com/Fadeyboi" target="_blank"
+          >And more on my GitHub</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2024 Fahd Alghamdi</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Particles JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
